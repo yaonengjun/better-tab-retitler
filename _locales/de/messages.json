@@ -1,0 +1,262 @@
+{
+  "extensionName": {
+    "message": "Tab ReTitler",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Browser-Tab-Titel anpassen für bessere Organisation. Titel temporär oder dauerhaft mit URL-Mustern ändern.",
+    "description": "Description of the extension"
+  },
+  "commandSetTitle": {
+    "message": "Neuen Titel setzen",
+    "description": "Description for the keyboard shortcut command"
+  },
+  "popupTitle": {
+    "message": "Tab-Titel ändern",
+    "description": "Title of the popup"
+  },
+  "labelNewTitle": {
+    "message": "Neuer Titel:",
+    "description": "Label for the new title input"
+  },
+  "labelOriginalTitle": {
+    "message": "Original: $1",
+    "description": "Label showing original title with placeholder"
+  },
+  "labelBookmarkTitle": {
+    "message": "Lesezeichen: $1",
+    "description": "Label showing bookmark title with placeholder"
+  },
+  "restrictedSiteTitle": {
+    "message": "Website-Einschränkung",
+    "description": "Title for restricted site message"
+  },
+  "restrictedSiteMessage": {
+    "message": "Diese Website erlaubt Erweiterungen nicht, Seitentitel zu ändern (Chrome Web Store, Browser-Seiten usw.).",
+    "description": "Message shown when trying to modify title on restricted sites"
+  },
+  "errorTitle": {
+    "message": "Fehler",
+    "description": "Title for error message"
+  },
+  "buttonSuccess": {
+    "message": "✓ Erfolgreich!",
+    "description": "Success button text"
+  },
+  "buttonRestricted": {
+    "message": "⚠️ Website eingeschränkt",
+    "description": "Restricted site button text"
+  },
+  "buttonError": {
+    "message": "❌ Fehler aufgetreten",
+    "description": "Error button text"
+  },
+  "buttonRetry": {
+    "message": "Erneut versuchen",
+    "description": "Retry button text"
+  },
+  "buttonLoading": {
+    "message": "⏳ Wird gesetzt...",
+    "description": "Loading button text"
+  },
+  "optionOneTime": {
+    "message": "Nur dieses Mal",
+    "description": "Option for temporary title change"
+  },
+  "optionTabLock": {
+    "message": "Für diesen Tab setzen",
+    "description": "Option for tab-specific title change"
+  },
+  "optionExactUrl": {
+    "message": "Nur exakte Übereinstimmung",
+    "description": "Option for URL-specific title change"
+  },
+  "optionDomain": {
+    "message": "Für diese Domain setzen",
+    "description": "Option for domain-specific title change"
+  },
+  "buttonSet": {
+    "message": "Titel setzen",
+    "description": "Text for the set title button"
+  },
+  "buttonOptions": {
+    "message": "Optionen",
+    "description": "Text for the options button"
+  },
+  "optionsTitle": {
+    "message": "Tab ReTitler Optionen",
+    "description": "Title of the options page"
+  },
+  "optionsHeader": {
+    "message": "Tab ReTitler Optionen",
+    "description": "Header of the options page"
+  },
+  "tabSavedTitles": {
+    "message": "Gespeicherte Titel",
+    "description": "Tab name for saved titles section"
+  },
+  "tabDefaultOptions": {
+    "message": "Standardoptionen",
+    "description": "Tab name for default options section"
+  },
+  "tabAdvancedOptions": {
+    "message": "Erweiterte Optionen",
+    "description": "Tab name for advanced options section"
+  },
+  "savedTitlesInfo": {
+    "message": "Klicken Sie auf einen Titel zum Bearbeiten. Klicken Sie auf das Papierkorb-Symbol zum Löschen.",
+    "description": "Info text for saved titles section"
+  },
+  "defaultOptionsHeader": {
+    "message": "Standard-Titeleinstellung",
+    "description": "Header for default options section"
+  },
+  "defaultOptionsInfo": {
+    "message": "Standardoption für das Popup-Menü auswählen.",
+    "description": "Info text for default options section"
+  },
+  "optionOneTimeDesc": {
+    "message": "Setzt den Titel vorübergehend. Neuladen oder URL-Wechsel verliert diese Änderung.",
+    "description": "Description for one-time option"
+  },
+  "optionTabLockDesc": {
+    "message": "Gilt für den aktuellen Tab, unabhängig von der URL. Geht verloren, wenn der Tab geschlossen wird.",
+    "description": "Description for tab lock option"
+  },
+  "optionExactUrlDesc": {
+    "message": "Stimmt mit der exakten URL überein. Bleibt über Sitzungen hinweg erhalten.",
+    "description": "Description for exact URL option"
+  },
+  "optionDomainDesc": {
+    "message": "Stimmt mit dem Domain-Teil der URL überein. Bleibt über Sitzungen hinweg erhalten.",
+    "description": "Description for domain option"
+  },
+  "buttonSave": {
+    "message": "Speichern",
+    "description": "Text for save button"
+  },
+  "advancedOptionsHeader": {
+    "message": "Erweiterte Optionen",
+    "description": "Header for advanced options section"
+  },
+  "accordionRegex": {
+    "message": "Regex-Ersetzung",
+    "description": "Header for regex section"
+  },
+  "regexInfo": {
+    "message": "Verwenden Sie Regex, um Teile von Titeln zu ersetzen.",
+    "description": "Info text for regex section"
+  },
+  "regexSyntax": {
+    "message": "Syntax: /Muster/Ersetzung/Flags",
+    "description": "Syntax info for regex"
+  },
+  "regexExample": {
+    "message": "Beispiel: /(.*)/Mein $1/ ändert \"Titel\" zu \"Mein Titel\"",
+    "description": "Example for regex"
+  },
+  "accordionUrlPattern": {
+    "message": "URL-Muster-Zuordnung",
+    "description": "Header for URL pattern section"
+  },
+  "urlPatternInfo": {
+    "message": "Erstellen Sie benutzerdefinierte URL-Muster-Zuordnungen.",
+    "description": "Info text for URL pattern section"
+  },
+  "labelUrlPattern": {
+    "message": "URL-Muster:",
+    "description": "Label for URL pattern input"
+  },
+  "urlPatternHint": {
+    "message": "Muss mit * beginnen und enden",
+    "description": "Hint for URL pattern input"
+  },
+  "labelPatternTitle": {
+    "message": "Titel:",
+    "description": "Label for pattern title input"
+  },
+  "buttonAddPattern": {
+    "message": "Muster hinzufügen",
+    "description": "Text for add pattern button"
+  },
+  "accordionKeyboardShortcut": {
+    "message": "Tastaturkürzel",
+    "description": "Header for keyboard shortcut section"
+  },
+  "keyboardShortcutInfo": {
+    "message": "Standardkürzel: Alt+E",
+    "description": "Info text for keyboard shortcut"
+  },
+  "buttonEditShortcuts": {
+    "message": "Kürzel bearbeiten",
+    "description": "Text for edit shortcuts button"
+  },
+  "accordionImportExport": {
+    "message": "Einstellungen Import/Export",
+    "description": "Header for import/export section"
+  },
+  "buttonExport": {
+    "message": "Einstellungen exportieren",
+    "description": "Text for export button"
+  },
+  "buttonImport": {
+    "message": "Einstellungen importieren",
+    "description": "Text for import button"
+  },
+  "labelLanguage": {
+    "message": "Sprache:",
+    "description": "Label for language selector"
+  },
+  "contextMenuSetTitle": {
+    "message": "Temporären Titel setzen",
+    "description": "Text for context menu item"
+  },
+  "promptTempTitle": {
+    "message": "Geben Sie einen temporären Titel ein:",
+    "description": "Prompt text for temporary title"
+  },
+  "errorDefaultMessage": {
+    "message": "Beim Setzen des Titels ist ein Fehler aufgetreten",
+    "description": "Default error message when title setting fails"
+  },
+  "errorUnknown": {
+    "message": "Unbekannter Fehler",
+    "description": "Unknown error fallback text"
+  },
+  "regexTemplatesHeader": {
+    "message": "Fertige Vorlagen",
+    "description": "Header for regex templates section"
+  },
+  "regexTemplatesHint": {
+    "message": "Klicken, um ein Muster in die Zwischenablage zu kopieren.",
+    "description": "Hint for regex templates"
+  },
+  "regexTemplateRemoveSuffix": {
+    "message": "Suffix nach Bindestrich entfernen",
+    "description": "Regex template: remove text after last dash"
+  },
+  "regexTemplateRemovePipe": {
+    "message": "Suffix nach Pipe entfernen",
+    "description": "Regex template: remove text after last pipe"
+  },
+  "regexTemplateRemoveBrackets": {
+    "message": "Klammern und Inhalt entfernen",
+    "description": "Regex template: remove parentheses/brackets and their content"
+  },
+  "regexTemplateAddPrefix": {
+    "message": "🔖 Präfix hinzufügen",
+    "description": "Regex template: add bookmark emoji prefix"
+  },
+  "regexTemplateAddSuffix": {
+    "message": "⭐ Suffix hinzufügen",
+    "description": "Regex template: add star emoji suffix"
+  },
+  "regexTemplateUppercase": {
+    "message": "Groß-/Kleinschreibung ignorieren",
+    "description": "Regex template: case-insensitive replacement"
+  },
+  "regexTemplateCleanWhitespace": {
+    "message": "Überflüssige Leerzeichen entfernen",
+    "description": "Regex template: collapse multiple spaces"
+  }
+}

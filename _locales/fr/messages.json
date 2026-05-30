@@ -1,0 +1,262 @@
+{
+  "extensionName": {
+    "message": "Tab ReTitler",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Personnalisez les titres des onglets pour une meilleure organisation. Modifiez les titres temporairement ou définitivement avec des modèles d'URL.",
+    "description": "Description of the extension"
+  },
+  "commandSetTitle": {
+    "message": "Définir un nouveau titre",
+    "description": "Description for the keyboard shortcut command"
+  },
+  "popupTitle": {
+    "message": "Modifier le titre de l'onglet",
+    "description": "Title of the popup"
+  },
+  "labelNewTitle": {
+    "message": "Nouveau titre :",
+    "description": "Label for the new title input"
+  },
+  "labelOriginalTitle": {
+    "message": "Original : $1",
+    "description": "Label showing original title with placeholder"
+  },
+  "labelBookmarkTitle": {
+    "message": "Favori : $1",
+    "description": "Label showing bookmark title with placeholder"
+  },
+  "restrictedSiteTitle": {
+    "message": "Restriction du site",
+    "description": "Title for restricted site message"
+  },
+  "restrictedSiteMessage": {
+    "message": "Ce site n'autorise pas les extensions à modifier les titres de page en raison de restrictions de sécurité (Chrome Web Store, pages du navigateur, etc.).",
+    "description": "Message shown when trying to modify title on restricted sites"
+  },
+  "errorTitle": {
+    "message": "Erreur",
+    "description": "Title for error message"
+  },
+  "buttonSuccess": {
+    "message": "✓ Succès !",
+    "description": "Success button text"
+  },
+  "buttonRestricted": {
+    "message": "⚠️ Site restreint",
+    "description": "Restricted site button text"
+  },
+  "buttonError": {
+    "message": "❌ Erreur survenue",
+    "description": "Error button text"
+  },
+  "buttonRetry": {
+    "message": "Réessayer",
+    "description": "Retry button text"
+  },
+  "buttonLoading": {
+    "message": "⏳ En cours...",
+    "description": "Loading button text"
+  },
+  "optionOneTime": {
+    "message": "Une seule fois",
+    "description": "Option for temporary title change"
+  },
+  "optionTabLock": {
+    "message": "Définir pour cet onglet",
+    "description": "Option for tab-specific title change"
+  },
+  "optionExactUrl": {
+    "message": "Correspondance exacte uniquement",
+    "description": "Option for URL-specific title change"
+  },
+  "optionDomain": {
+    "message": "Définir pour ce domaine",
+    "description": "Option for domain-specific title change"
+  },
+  "buttonSet": {
+    "message": "Définir le titre",
+    "description": "Text for the set title button"
+  },
+  "buttonOptions": {
+    "message": "Options",
+    "description": "Text for the options button"
+  },
+  "optionsTitle": {
+    "message": "Options de Tab ReTitler",
+    "description": "Title of the options page"
+  },
+  "optionsHeader": {
+    "message": "Options de Tab ReTitler",
+    "description": "Header of the options page"
+  },
+  "tabSavedTitles": {
+    "message": "Titres enregistrés",
+    "description": "Tab name for saved titles section"
+  },
+  "tabDefaultOptions": {
+    "message": "Options par défaut",
+    "description": "Tab name for default options section"
+  },
+  "tabAdvancedOptions": {
+    "message": "Options avancées",
+    "description": "Tab name for advanced options section"
+  },
+  "savedTitlesInfo": {
+    "message": "Cliquez sur un titre pour le modifier. Cliquez sur l'icône corbeille pour le supprimer.",
+    "description": "Info text for saved titles section"
+  },
+  "defaultOptionsHeader": {
+    "message": "Paramètre de titre par défaut",
+    "description": "Header for default options section"
+  },
+  "defaultOptionsInfo": {
+    "message": "Sélectionnez l'option par défaut pour le menu contextuel.",
+    "description": "Info text for default options section"
+  },
+  "optionOneTimeDesc": {
+    "message": "Définit le titre temporairement. Le rechargement ou le changement d'URL annule cette modification.",
+    "description": "Description for one-time option"
+  },
+  "optionTabLockDesc": {
+    "message": "S'applique à l'onglet actuel quelle que soit l'URL. Perdu à la fermeture de l'onglet.",
+    "description": "Description for tab lock option"
+  },
+  "optionExactUrlDesc": {
+    "message": "Correspondance exacte de l'URL. Persistant entre les sessions.",
+    "description": "Description for exact URL option"
+  },
+  "optionDomainDesc": {
+    "message": "Correspondance du domaine de l'URL. Persistant entre les sessions.",
+    "description": "Description for domain option"
+  },
+  "buttonSave": {
+    "message": "Enregistrer",
+    "description": "Text for save button"
+  },
+  "advancedOptionsHeader": {
+    "message": "Options avancées",
+    "description": "Header for advanced options section"
+  },
+  "accordionRegex": {
+    "message": "Remplacement Regex",
+    "description": "Header for regex section"
+  },
+  "regexInfo": {
+    "message": "Utilisez les regex pour remplacer des parties de titres.",
+    "description": "Info text for regex section"
+  },
+  "regexSyntax": {
+    "message": "Syntaxe : /motif/remplacement/drapeaux",
+    "description": "Syntax info for regex"
+  },
+  "regexExample": {
+    "message": "Exemple : /(.*)/Mon $1/ changera \"Titre\" en \"Mon Titre\"",
+    "description": "Example for regex"
+  },
+  "accordionUrlPattern": {
+    "message": "Correspondance de motif URL",
+    "description": "Header for URL pattern section"
+  },
+  "urlPatternInfo": {
+    "message": "Créez des correspondances de motifs URL personnalisées.",
+    "description": "Info text for URL pattern section"
+  },
+  "labelUrlPattern": {
+    "message": "Motif URL :",
+    "description": "Label for URL pattern input"
+  },
+  "urlPatternHint": {
+    "message": "Doit commencer et finir par *",
+    "description": "Hint for URL pattern input"
+  },
+  "labelPatternTitle": {
+    "message": "Titre :",
+    "description": "Label for pattern title input"
+  },
+  "buttonAddPattern": {
+    "message": "Ajouter un motif",
+    "description": "Text for add pattern button"
+  },
+  "accordionKeyboardShortcut": {
+    "message": "Raccourci clavier",
+    "description": "Header for keyboard shortcut section"
+  },
+  "keyboardShortcutInfo": {
+    "message": "Raccourci par défaut : Alt+E",
+    "description": "Info text for keyboard shortcut"
+  },
+  "buttonEditShortcuts": {
+    "message": "Modifier les raccourcis",
+    "description": "Text for edit shortcuts button"
+  },
+  "accordionImportExport": {
+    "message": "Import/Export des paramètres",
+    "description": "Header for import/export section"
+  },
+  "buttonExport": {
+    "message": "Exporter les paramètres",
+    "description": "Text for export button"
+  },
+  "buttonImport": {
+    "message": "Importer les paramètres",
+    "description": "Text for import button"
+  },
+  "labelLanguage": {
+    "message": "Langue :",
+    "description": "Label for language selector"
+  },
+  "contextMenuSetTitle": {
+    "message": "Définir un titre temporaire",
+    "description": "Text for context menu item"
+  },
+  "promptTempTitle": {
+    "message": "Entrez un titre temporaire :",
+    "description": "Prompt text for temporary title"
+  },
+  "errorDefaultMessage": {
+    "message": "Une erreur est survenue lors de la définition du titre",
+    "description": "Default error message when title setting fails"
+  },
+  "errorUnknown": {
+    "message": "Erreur inconnue",
+    "description": "Unknown error fallback text"
+  },
+  "regexTemplatesHeader": {
+    "message": "Modèles prêts à l'emploi",
+    "description": "Header for regex templates section"
+  },
+  "regexTemplatesHint": {
+    "message": "Cliquez pour copier un modèle dans le presse-papiers.",
+    "description": "Hint for regex templates"
+  },
+  "regexTemplateRemoveSuffix": {
+    "message": "Supprimer le suffixe après tiret",
+    "description": "Regex template: remove text after last dash"
+  },
+  "regexTemplateRemovePipe": {
+    "message": "Supprimer le suffixe après barre",
+    "description": "Regex template: remove text after last pipe"
+  },
+  "regexTemplateRemoveBrackets": {
+    "message": "Supprimer les crochets et contenu",
+    "description": "Regex template: remove parentheses/brackets and their content"
+  },
+  "regexTemplateAddPrefix": {
+    "message": "Ajouter préfixe 🔖",
+    "description": "Regex template: add bookmark emoji prefix"
+  },
+  "regexTemplateAddSuffix": {
+    "message": "Ajouter suffixe ⭐",
+    "description": "Regex template: add star emoji suffix"
+  },
+  "regexTemplateUppercase": {
+    "message": "Correspondance insensible à la casse",
+    "description": "Regex template: case-insensitive replacement"
+  },
+  "regexTemplateCleanWhitespace": {
+    "message": "Nettoyer les espaces superflus",
+    "description": "Regex template: collapse multiple spaces"
+  }
+}

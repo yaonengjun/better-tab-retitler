@@ -1,0 +1,262 @@
+{
+  "extensionName": {
+    "message": "Tab ReTitler",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Personaliza los títulos de las pestañas para una mejor organización. Cambia títulos temporal o permanentemente con patrones de URL.",
+    "description": "Description of the extension"
+  },
+  "commandSetTitle": {
+    "message": "Establecer nuevo título",
+    "description": "Description for the keyboard shortcut command"
+  },
+  "popupTitle": {
+    "message": "Cambiar título de pestaña",
+    "description": "Title of the popup"
+  },
+  "labelNewTitle": {
+    "message": "Nuevo título:",
+    "description": "Label for the new title input"
+  },
+  "labelOriginalTitle": {
+    "message": "Original: $1",
+    "description": "Label showing original title with placeholder"
+  },
+  "labelBookmarkTitle": {
+    "message": "Marcador: $1",
+    "description": "Label showing bookmark title with placeholder"
+  },
+  "restrictedSiteTitle": {
+    "message": "Restricción del sitio",
+    "description": "Title for restricted site message"
+  },
+  "restrictedSiteMessage": {
+    "message": "Este sitio no permite que las extensiones modifiquen los títulos de página debido a restricciones de seguridad (Chrome Web Store, páginas del navegador, etc.).",
+    "description": "Message shown when trying to modify title on restricted sites"
+  },
+  "errorTitle": {
+    "message": "Error",
+    "description": "Title for error message"
+  },
+  "buttonSuccess": {
+    "message": "✓ ¡Éxito!",
+    "description": "Success button text"
+  },
+  "buttonRestricted": {
+    "message": "⚠️ Sitio restringido",
+    "description": "Restricted site button text"
+  },
+  "buttonError": {
+    "message": "❌ Error ocurrido",
+    "description": "Error button text"
+  },
+  "buttonRetry": {
+    "message": "Reintentar",
+    "description": "Retry button text"
+  },
+  "buttonLoading": {
+    "message": "⏳ Configurando...",
+    "description": "Loading button text"
+  },
+  "optionOneTime": {
+    "message": "Solo esta vez",
+    "description": "Option for temporary title change"
+  },
+  "optionTabLock": {
+    "message": "Establecer para esta pestaña",
+    "description": "Option for tab-specific title change"
+  },
+  "optionExactUrl": {
+    "message": "Solo coincidencia exacta",
+    "description": "Option for URL-specific title change"
+  },
+  "optionDomain": {
+    "message": "Establecer para este dominio",
+    "description": "Option for domain-specific title change"
+  },
+  "buttonSet": {
+    "message": "Establecer título",
+    "description": "Text for the set title button"
+  },
+  "buttonOptions": {
+    "message": "Opciones",
+    "description": "Text for the options button"
+  },
+  "optionsTitle": {
+    "message": "Opciones de Tab ReTitler",
+    "description": "Title of the options page"
+  },
+  "optionsHeader": {
+    "message": "Opciones de Tab ReTitler",
+    "description": "Header of the options page"
+  },
+  "tabSavedTitles": {
+    "message": "Títulos guardados",
+    "description": "Tab name for saved titles section"
+  },
+  "tabDefaultOptions": {
+    "message": "Opciones predeterminadas",
+    "description": "Tab name for default options section"
+  },
+  "tabAdvancedOptions": {
+    "message": "Opciones avanzadas",
+    "description": "Tab name for advanced options section"
+  },
+  "savedTitlesInfo": {
+    "message": "Haz clic en un título para editarlo. Haz clic en el icono de papelera para eliminarlo.",
+    "description": "Info text for saved titles section"
+  },
+  "defaultOptionsHeader": {
+    "message": "Configuración de título predeterminado",
+    "description": "Header for default options section"
+  },
+  "defaultOptionsInfo": {
+    "message": "Selecciona la opción predeterminada para el menú emergente.",
+    "description": "Info text for default options section"
+  },
+  "optionOneTimeDesc": {
+    "message": "Establece el título temporalmente. Recargar o cambiar la URL pierde este cambio.",
+    "description": "Description for one-time option"
+  },
+  "optionTabLockDesc": {
+    "message": "Se aplica a la pestaña actual independientemente de la URL. Se pierde al cerrar la pestaña.",
+    "description": "Description for tab lock option"
+  },
+  "optionExactUrlDesc": {
+    "message": "Coincide con la URL exacta. Persistente entre sesiones.",
+    "description": "Description for exact URL option"
+  },
+  "optionDomainDesc": {
+    "message": "Coincide con la parte del dominio de la URL. Persistente entre sesiones.",
+    "description": "Description for domain option"
+  },
+  "buttonSave": {
+    "message": "Guardar",
+    "description": "Text for save button"
+  },
+  "advancedOptionsHeader": {
+    "message": "Opciones avanzadas",
+    "description": "Header for advanced options section"
+  },
+  "accordionRegex": {
+    "message": "Reemplazo con Regex",
+    "description": "Header for regex section"
+  },
+  "regexInfo": {
+    "message": "Usa regex para reemplazar partes de títulos.",
+    "description": "Info text for regex section"
+  },
+  "regexSyntax": {
+    "message": "Sintaxis: /patrón/reemplazo/banderas",
+    "description": "Syntax info for regex"
+  },
+  "regexExample": {
+    "message": "Ejemplo: /(.*)/Mi $1/ cambiará \"Título\" a \"Mi Título\"",
+    "description": "Example for regex"
+  },
+  "accordionUrlPattern": {
+    "message": "Coincidencia de patrones URL",
+    "description": "Header for URL pattern section"
+  },
+  "urlPatternInfo": {
+    "message": "Crea coincidencias de patrones URL personalizadas.",
+    "description": "Info text for URL pattern section"
+  },
+  "labelUrlPattern": {
+    "message": "Patrón URL:",
+    "description": "Label for URL pattern input"
+  },
+  "urlPatternHint": {
+    "message": "Debe empezar y terminar con *",
+    "description": "Hint for URL pattern input"
+  },
+  "labelPatternTitle": {
+    "message": "Título:",
+    "description": "Label for pattern title input"
+  },
+  "buttonAddPattern": {
+    "message": "Agregar patrón",
+    "description": "Text for add pattern button"
+  },
+  "accordionKeyboardShortcut": {
+    "message": "Atajo de teclado",
+    "description": "Header for keyboard shortcut section"
+  },
+  "keyboardShortcutInfo": {
+    "message": "Atajo predeterminado: Alt+E",
+    "description": "Info text for keyboard shortcut"
+  },
+  "buttonEditShortcuts": {
+    "message": "Editar atajos",
+    "description": "Text for edit shortcuts button"
+  },
+  "accordionImportExport": {
+    "message": "Importar/Exportar configuración",
+    "description": "Header for import/export section"
+  },
+  "buttonExport": {
+    "message": "Exportar configuración",
+    "description": "Text for export button"
+  },
+  "buttonImport": {
+    "message": "Importar configuración",
+    "description": "Text for import button"
+  },
+  "labelLanguage": {
+    "message": "Idioma:",
+    "description": "Label for language selector"
+  },
+  "contextMenuSetTitle": {
+    "message": "Establecer título temporal",
+    "description": "Text for context menu item"
+  },
+  "promptTempTitle": {
+    "message": "Introduce un título temporal:",
+    "description": "Prompt text for temporary title"
+  },
+  "errorDefaultMessage": {
+    "message": "Ocurrió un error al establecer el título",
+    "description": "Default error message when title setting fails"
+  },
+  "errorUnknown": {
+    "message": "Error desconocido",
+    "description": "Unknown error fallback text"
+  },
+  "regexTemplatesHeader": {
+    "message": "Plantillas predefinidas",
+    "description": "Header for regex templates section"
+  },
+  "regexTemplatesHint": {
+    "message": "Haz clic para copiar un patrón al portapapeles.",
+    "description": "Hint for regex templates"
+  },
+  "regexTemplateRemoveSuffix": {
+    "message": "Eliminar sufijo tras guión",
+    "description": "Regex template: remove text after last dash"
+  },
+  "regexTemplateRemovePipe": {
+    "message": "Eliminar sufijo tras barra vertical",
+    "description": "Regex template: remove text after last pipe"
+  },
+  "regexTemplateRemoveBrackets": {
+    "message": "Eliminar paréntesis y contenido",
+    "description": "Regex template: remove parentheses/brackets and their content"
+  },
+  "regexTemplateAddPrefix": {
+    "message": "Agregar prefijo 🔖",
+    "description": "Regex template: add bookmark emoji prefix"
+  },
+  "regexTemplateAddSuffix": {
+    "message": "Agregar sufijo ⭐",
+    "description": "Regex template: add star emoji suffix"
+  },
+  "regexTemplateUppercase": {
+    "message": "Coincidencia sin distinción de mayúsculas",
+    "description": "Regex template: case-insensitive replacement"
+  },
+  "regexTemplateCleanWhitespace": {
+    "message": "Limpiar espacios extra",
+    "description": "Regex template: collapse multiple spaces"
+  }
+}

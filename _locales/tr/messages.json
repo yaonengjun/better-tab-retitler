@@ -1,0 +1,262 @@
+{
+  "extensionName": {
+    "message": "Tab ReTitler",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Sekme başlıklarını kolayca değiştirin ve yönetin",
+    "description": "Description of the extension"
+  },
+  "commandSetTitle": {
+    "message": "Yeni başlık belirle",
+    "description": "Description for the keyboard shortcut command"
+  },
+  "popupTitle": {
+    "message": "Sekme Başlığını Değiştir",
+    "description": "Title of the popup"
+  },
+  "labelNewTitle": {
+    "message": "Yeni Başlık:",
+    "description": "Label for the new title input"
+  },
+  "labelOriginalTitle": {
+    "message": "Orijinal: $1",
+    "description": "Label showing original title with placeholder"
+  },
+  "labelBookmarkTitle": {
+    "message": "Yer İmi: $1",
+    "description": "Label showing bookmark title with placeholder"
+  },
+  "restrictedSiteTitle": {
+    "message": "Site Kısıtlaması",
+    "description": "Title for restricted site message"
+  },
+  "restrictedSiteMessage": {
+    "message": "Bu site güvenlik kısıtlamaları nedeniyle sayfa başlıklarının değiştirilmesine izin vermiyor (Chrome Web Store, tarayıcı sayfaları vb.).",
+    "description": "Message shown when trying to modify title on restricted sites"
+  },
+  "buttonSuccess": {
+    "message": "✓ Başarılı!",
+    "description": "Success button text"
+  },
+  "buttonRestricted": {
+    "message": "⚠️ Site Kısıtlı",
+    "description": "Restricted site button text"
+  },
+  "buttonError": {
+    "message": "❌ Hata Oluştu",
+    "description": "Error button text"
+  },
+  "buttonRetry": {
+    "message": "Tekrar Dene",
+    "description": "Retry button text"
+  },
+  "buttonLoading": {
+    "message": "⏳ Ayarlanıyor...",
+    "description": "Loading button text"
+  },
+  "optionOneTime": {
+    "message": "Sadece bu sefer",
+    "description": "Option for temporary title change"
+  },
+  "optionTabLock": {
+    "message": "Bu sekme için ayarla",
+    "description": "Option for tab-specific title change"
+  },
+  "optionExactUrl": {
+    "message": "Sadece tam eşleşme",
+    "description": "Option for URL-specific title change"
+  },
+  "optionDomain": {
+    "message": "Bu alan adı için ayarla",
+    "description": "Option for domain-specific title change"
+  },
+  "buttonSet": {
+    "message": "Başlığı Ayarla",
+    "description": "Text for the set title button"
+  },
+  "buttonOptions": {
+    "message": "Ayarlar",
+    "description": "Text for the options button"
+  },
+  "optionsTitle": {
+    "message": "Tab ReTitler Ayarları",
+    "description": "Title of the options page"
+  },
+  "optionsHeader": {
+    "message": "Tab ReTitler Ayarları",
+    "description": "Header of the options page"
+  },
+  "tabSavedTitles": {
+    "message": "Kaydedilen Başlıklar",
+    "description": "Tab name for saved titles section"
+  },
+  "tabDefaultOptions": {
+    "message": "Varsayılan Ayarlar",
+    "description": "Tab name for default options section"
+  },
+  "tabAdvancedOptions": {
+    "message": "Gelişmiş Ayarlar",
+    "description": "Tab name for advanced options section"
+  },
+  "savedTitlesInfo": {
+    "message": "Düzenlemek için bir başlığa tıklayın. Silmek için çöp kutusu simgesine tıklayın.",
+    "description": "Info text for saved titles section"
+  },
+  "defaultOptionsHeader": {
+    "message": "Varsayılan Başlık Ayarı",
+    "description": "Header for default options section"
+  },
+  "defaultOptionsInfo": {
+    "message": "Açılır menü için varsayılan seçeneği belirleyin.",
+    "description": "Info text for default options section"
+  },
+  "optionOneTimeDesc": {
+    "message": "Başlığı geçici olarak ayarlar. Sayfayı yenilemek veya URL'yi değiştirmek bu değişikliği kaybeder.",
+    "description": "Description for one-time option"
+  },
+  "optionTabLockDesc": {
+    "message": "URL'den bağımsız olarak mevcut sekmeyi eşleştirir. Sekme kapatıldığında kaybolur.",
+    "description": "Description for tab lock option"
+  },
+  "optionExactUrlDesc": {
+    "message": "Tam URL'yi eşleştirir. Oturumlar arasında kalıcıdır.",
+    "description": "Description for exact URL option"
+  },
+  "optionDomainDesc": {
+    "message": "URL'nin alan adı kısmını eşleştirir. Oturumlar arasında kalıcıdır.",
+    "description": "Description for domain option"
+  },
+  "buttonSave": {
+    "message": "Kaydet",
+    "description": "Text for save button"
+  },
+  "advancedOptionsHeader": {
+    "message": "Gelişmiş Ayarlar",
+    "description": "Header for advanced options section"
+  },
+  "accordionRegex": {
+    "message": "Regex Değiştirme",
+    "description": "Header for regex section"
+  },
+  "regexInfo": {
+    "message": "Başlıkların bölümlerini değiştirmek için regex kullanın.",
+    "description": "Info text for regex section"
+  },
+  "regexSyntax": {
+    "message": "Sözdizimi: /desen/değiştirme/bayraklar",
+    "description": "Syntax info for regex"
+  },
+  "regexExample": {
+    "message": "Örnek: /(.*)/Benim $1/ ifadesi \"Başlık\" yazısını \"Benim Başlık\" olarak değiştirir",
+    "description": "Example for regex"
+  },
+  "accordionUrlPattern": {
+    "message": "URL Deseni Eşleştirme",
+    "description": "Header for URL pattern section"
+  },
+  "urlPatternInfo": {
+    "message": "Özel URL deseni eşleştirmeleri oluşturun.",
+    "description": "Info text for URL pattern section"
+  },
+  "labelUrlPattern": {
+    "message": "URL Deseni:",
+    "description": "Label for URL pattern input"
+  },
+  "urlPatternHint": {
+    "message": "* ile başlamalı ve bitmelidir",
+    "description": "Hint for URL pattern input"
+  },
+  "labelPatternTitle": {
+    "message": "Başlık:",
+    "description": "Label for pattern title input"
+  },
+  "buttonAddPattern": {
+    "message": "Desen Ekle",
+    "description": "Text for add pattern button"
+  },
+  "accordionKeyboardShortcut": {
+    "message": "Klavye Kısayolu",
+    "description": "Header for keyboard shortcut section"
+  },
+  "keyboardShortcutInfo": {
+    "message": "Varsayılan kısayol: Alt+E",
+    "description": "Info text for keyboard shortcut"
+  },
+  "buttonEditShortcuts": {
+    "message": "Kısayolları Düzenle",
+    "description": "Text for edit shortcuts button"
+  },
+  "accordionImportExport": {
+    "message": "Ayarları İçe/Dışa Aktar",
+    "description": "Header for import/export section"
+  },
+  "buttonExport": {
+    "message": "Ayarları Dışa Aktar",
+    "description": "Text for export button"
+  },
+  "buttonImport": {
+    "message": "Ayarları İçe Aktar",
+    "description": "Text for import button"
+  },
+  "labelLanguage": {
+    "message": "Dil:",
+    "description": "Label for language selector"
+  },
+  "contextMenuSetTitle": {
+    "message": "Geçici başlık belirle",
+    "description": "Text for context menu item"
+  },
+  "promptTempTitle": {
+    "message": "Geçici bir başlık girin:",
+    "description": "Prompt text for temporary title"
+  },
+  "errorTitle": {
+    "message": "Hata",
+    "description": "Title for error message"
+  },
+  "errorDefaultMessage": {
+    "message": "Başlık ayarlanırken bir hata oluştu",
+    "description": "Default error message when title setting fails"
+  },
+  "errorUnknown": {
+    "message": "Bilinmeyen hata",
+    "description": "Unknown error fallback text"
+  },
+  "regexTemplatesHeader": {
+    "message": "Hazır Şablonlar",
+    "description": "Header for regex templates section"
+  },
+  "regexTemplatesHint": {
+    "message": "Şablon desenini panoya kopyalamak için tıklayın.",
+    "description": "Hint for regex templates"
+  },
+  "regexTemplateRemoveSuffix": {
+    "message": "Tire sonrası son eki kaldır",
+    "description": "Regex template: remove text after last dash"
+  },
+  "regexTemplateRemovePipe": {
+    "message": "Dikey çizgi sonrası son eki kaldır",
+    "description": "Regex template: remove text after last pipe"
+  },
+  "regexTemplateRemoveBrackets": {
+    "message": "Parantez ve içeriği kaldır",
+    "description": "Regex template: remove parentheses/brackets and their content"
+  },
+  "regexTemplateAddPrefix": {
+    "message": "🔖 ön ek ekle",
+    "description": "Regex template: add bookmark emoji prefix"
+  },
+  "regexTemplateAddSuffix": {
+    "message": "⭐ son ek ekle",
+    "description": "Regex template: add star emoji suffix"
+  },
+  "regexTemplateUppercase": {
+    "message": "Büyük/küçük harfe duyarsız eşleştir",
+    "description": "Regex template: case-insensitive replacement"
+  },
+  "regexTemplateCleanWhitespace": {
+    "message": "Fazla boşlukları temizle",
+    "description": "Regex template: collapse multiple spaces"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "labelMatchedRule": {
+    "message": "当前命中规则: [$1]",
+    "description": "Label for the matched rule ID"
+  },
+  "extensionName": {
+    "message": "Tab ReTitler",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "自定义浏览器标签页标题，提升整理效率。通过URL模式临时或永久更改标题。",
+    "description": "Description of the extension"
+  },
+  "commandSetTitle": {
+    "message": "设置新标题",
+    "description": "Description for the keyboard shortcut command"
+  },
+  "popupTitle": {
+    "message": "修改标签页标题",
+    "description": "Title of the popup"
+  },
+  "labelNewTitle": {
+    "message": "新标题：",
+    "description": "Label for the new title input"
+  },
+  "labelOriginalTitle": {
+    "message": "原始：$1",
+    "description": "Label showing original title with placeholder"
+  },
+  "labelBookmarkTitle": {
+    "message": "书签：$1",
+    "description": "Label showing bookmark title with placeholder"
+  },
+  "restrictedSiteTitle": {
+    "message": "网站限制",
+    "description": "Title for restricted site message"
+  },
+  "restrictedSiteMessage": {
+    "message": "由于安全限制，此网站不允许扩展程序修改页面标题（Chrome网上应用店、浏览器页面等）。",
+    "description": "Message shown when trying to modify title on restricted sites"
+  },
+  "errorTitle": {
+    "message": "错误",
+    "description": "Title for error message"
+  },
+  "buttonSuccess": {
+    "message": "✓ 成功！",
+    "description": "Success button text"
+  },
+  "buttonRestricted": {
+    "message": "⚠️ 网站受限",
+    "description": "Restricted site button text"
+  },
+  "buttonError": {
+    "message": "❌ 发生错误",
+    "description": "Error button text"
+  },
+  "buttonRetry": {
+    "message": "重试",
+    "description": "Retry button text"
+  },
+  "buttonLoading": {
+    "message": "⏳ 设置中...",
+    "description": "Loading button text"
+  },
+  "optionOneTime": {
+    "message": "仅此一次",
+    "description": "Option for temporary title change"
+  },
+  "optionTabLock": {
+    "message": "为此标签页设置",
+    "description": "Option for tab-specific title change"
+  },
+  "optionKeyword": {
+    "message": "关键字匹配 [P1]",
+    "description": "Option for keyword match"
+  },
+  "optionPrefix": {
+    "message": "前缀匹配 [P2]",
+    "description": "Option for prefix match"
+  },
+  "labelPatternInput": {
+    "message": "匹配规则：",
+    "description": "Label for pattern input"
+  },
+  "placeholderKeywordPattern": {
+    "message": "支持多关键词，请用 | 隔开",
+    "description": "Placeholder for keyword pattern input"
+  },
+  "optionExactUrl": {
+    "message": "仅精确匹配 [P3]",
+    "description": "Option for URL-specific title change"
+  },
+  "optionDomain": {
+    "message": "为此域名设置 [P4]",
+    "description": "Option for domain-specific title change"
+  },
+  "buttonSet": {
+    "message": "设置标题",
+    "description": "Text for the set title button"
+  },
+  "buttonOptions": {
+    "message": "选项",
+    "description": "Text for the options button"
+  },
+  "optionsTitle": {
+    "message": "Tab ReTitler 选项",
+    "description": "Title of the options page"
+  },
+  "optionsHeader": {
+    "message": "Tab ReTitler 选项",
+    "description": "Header of the options page"
+  },
+  "tabSavedTitles": {
+    "message": "已保存标题",
+    "description": "Tab name for saved titles section"
+  },
+  "tabDefaultOptions": {
+    "message": "默认选项",
+    "description": "Tab name for default options section"
+  },
+  "tabAdvancedOptions": {
+    "message": "高级选项",
+    "description": "Tab name for advanced options section"
+  },
+  "savedTitlesInfo": {
+    "message": "点击标题进行编辑。点击垃圾桶图标删除。",
+    "description": "Info text for saved titles section"
+  },
+  "defaultOptionsHeader": {
+    "message": "默认标题设置",
+    "description": "Header for default options section"
+  },
+  "defaultOptionsInfo": {
+    "message": "选择弹出菜单的默认选项。",
+    "description": "Info text for default options section"
+  },
+  "optionOneTimeDesc": {
+    "message": "临时设置标题。重新加载或更改URL将失去此更改。",
+    "description": "Description for one-time option"
+  },
+  "optionTabLockDesc": {
+    "message": "与URL无关，应用于当前标签页。关闭标签页时丢失。",
+    "description": "Description for tab lock option"
+  },
+  "optionExactUrlDesc": {
+    "message": "精确匹配URL。跨会话持久保存。",
+    "description": "Description for exact URL option"
+  },
+  "optionDomainDesc": {
+    "message": "匹配URL的域名部分。跨会话持久保存。",
+    "description": "Description for domain option"
+  },
+  "buttonSave": {
+    "message": "保存",
+    "description": "Text for save button"
+  },
+  "advancedOptionsHeader": {
+    "message": "高级选项",
+    "description": "Header for advanced options section"
+  },
+  "accordionRegex": {
+    "message": "正则表达式替换",
+    "description": "Header for regex section"
+  },
+  "regexInfo": {
+    "message": "使用正则表达式替换标题的部分内容。",
+    "description": "Info text for regex section"
+  },
+  "regexSyntax": {
+    "message": "语法：/模式/替换/标志",
+    "description": "Syntax info for regex"
+  },
+  "regexExample": {
+    "message": "示例：/(.*)/我的 $1/ 将 \"标题\" 更改为 \"我的 标题\"",
+    "description": "Example for regex"
+  },
+  "accordionUrlPattern": {
+    "message": "URL模式匹配",
+    "description": "Header for URL pattern section"
+  },
+  "urlPatternInfo": {
+    "message": "创建自定义URL模式匹配。",
+    "description": "Info text for URL pattern section"
+  },
+  "labelUrlPattern": {
+    "message": "URL模式：",
+    "description": "Label for URL pattern input"
+  },
+  "urlPatternHint": {
+    "message": "必须以 * 开头和结尾",
+    "description": "Hint for URL pattern input"
+  },
+  "labelPatternTitle": {
+    "message": "标题：",
+    "description": "Label for pattern title input"
+  },
+  "buttonAddPattern": {
+    "message": "添加模式",
+    "description": "Text for add pattern button"
+  },
+  "accordionKeyboardShortcut": {
+    "message": "键盘快捷键",
+    "description": "Header for keyboard shortcut section"
+  },
+  "keyboardShortcutInfo": {
+    "message": "默认快捷键：Alt+E",
+    "description": "Info text for keyboard shortcut"
+  },
+  "buttonEditShortcuts": {
+    "message": "编辑快捷键",
+    "description": "Text for edit shortcuts button"
+  },
+  "accordionImportExport": {
+    "message": "导入/导出设置",
+    "description": "Header for import/export section"
+  },
+  "buttonExport": {
+    "message": "导出设置",
+    "description": "Text for export button"
+  },
+  "buttonImport": {
+    "message": "导入设置",
+    "description": "Text for import button"
+  },
+  "labelLanguage": {
+    "message": "语言：",
+    "description": "Label for language selector"
+  },
+  "contextMenuSetTitle": {
+    "message": "设置临时标题",
+    "description": "Text for context menu item"
+  },
+  "promptTempTitle": {
+    "message": "输入临时标题：",
+    "description": "Prompt text for temporary title"
+  },
+  "errorDefaultMessage": {
+    "message": "设置标题时发生错误",
+    "description": "Default error message when title setting fails"
+  },
+  "errorUnknown": {
+    "message": "未知错误",
+    "description": "Unknown error fallback text"
+  },
+  "regexTemplatesHeader": {
+    "message": "预设模板",
+    "description": "Header for regex templates section"
+  },
+  "regexTemplatesHint": {
+    "message": "点击将模式复制到剪贴板。",
+    "description": "Hint for regex templates"
+  },
+  "regexTemplateRemoveSuffix": {
+    "message": "删除短横线后的后缀",
+    "description": "Regex template: remove text after last dash"
+  },
+  "regexTemplateRemovePipe": {
+    "message": "删除竖线后的后缀",
+    "description": "Regex template: remove text after last pipe"
+  },
+  "regexTemplateRemoveBrackets": {
+    "message": "删除括号及内容",
+    "description": "Regex template: remove parentheses/brackets and their content"
+  },
+  "regexTemplateAddPrefix": {
+    "message": "添加 🔖 前缀",
+    "description": "Regex template: add bookmark emoji prefix"
+  },
+  "regexTemplateAddSuffix": {
+    "message": "添加 ⭐ 后缀",
+    "description": "Regex template: add star emoji suffix"
+  },
+  "regexTemplateUppercase": {
+    "message": "不区分大小写匹配",
+    "description": "Regex template: case-insensitive replacement"
+  },
+  "regexTemplateCleanWhitespace": {
+    "message": "清理多余空格",
+    "description": "Regex template: collapse multiple spaces"
+  }
+}

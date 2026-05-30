@@ -1,0 +1,262 @@
+{
+  "extensionName": {
+    "message": "Tab ReTitler",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "ブラウザタブのタイトルをカスタマイズして整理を改善。URLパターンでタイトルを一時的または永続的に変更。",
+    "description": "Description of the extension"
+  },
+  "commandSetTitle": {
+    "message": "新しいタイトルを設定",
+    "description": "Description for the keyboard shortcut command"
+  },
+  "popupTitle": {
+    "message": "タブタイトルを変更",
+    "description": "Title of the popup"
+  },
+  "labelNewTitle": {
+    "message": "新しいタイトル：",
+    "description": "Label for the new title input"
+  },
+  "labelOriginalTitle": {
+    "message": "元のタイトル：$1",
+    "description": "Label showing original title with placeholder"
+  },
+  "labelBookmarkTitle": {
+    "message": "ブックマーク：$1",
+    "description": "Label showing bookmark title with placeholder"
+  },
+  "restrictedSiteTitle": {
+    "message": "サイト制限",
+    "description": "Title for restricted site message"
+  },
+  "restrictedSiteMessage": {
+    "message": "このサイトはセキュリティ制限により、拡張機能によるページタイトルの変更を許可していません（Chrome Web Store、ブラウザページなど）。",
+    "description": "Message shown when trying to modify title on restricted sites"
+  },
+  "errorTitle": {
+    "message": "エラー",
+    "description": "Title for error message"
+  },
+  "buttonSuccess": {
+    "message": "✓ 成功！",
+    "description": "Success button text"
+  },
+  "buttonRestricted": {
+    "message": "⚠️ サイト制限",
+    "description": "Restricted site button text"
+  },
+  "buttonError": {
+    "message": "❌ エラー発生",
+    "description": "Error button text"
+  },
+  "buttonRetry": {
+    "message": "再試行",
+    "description": "Retry button text"
+  },
+  "buttonLoading": {
+    "message": "⏳ 設定中...",
+    "description": "Loading button text"
+  },
+  "optionOneTime": {
+    "message": "今回のみ",
+    "description": "Option for temporary title change"
+  },
+  "optionTabLock": {
+    "message": "このタブに設定",
+    "description": "Option for tab-specific title change"
+  },
+  "optionExactUrl": {
+    "message": "完全一致のみ",
+    "description": "Option for URL-specific title change"
+  },
+  "optionDomain": {
+    "message": "このドメインに設定",
+    "description": "Option for domain-specific title change"
+  },
+  "buttonSet": {
+    "message": "タイトルを設定",
+    "description": "Text for the set title button"
+  },
+  "buttonOptions": {
+    "message": "オプション",
+    "description": "Text for the options button"
+  },
+  "optionsTitle": {
+    "message": "Tab ReTitler オプション",
+    "description": "Title of the options page"
+  },
+  "optionsHeader": {
+    "message": "Tab ReTitler オプション",
+    "description": "Header of the options page"
+  },
+  "tabSavedTitles": {
+    "message": "保存済みタイトル",
+    "description": "Tab name for saved titles section"
+  },
+  "tabDefaultOptions": {
+    "message": "デフォルト設定",
+    "description": "Tab name for default options section"
+  },
+  "tabAdvancedOptions": {
+    "message": "詳細設定",
+    "description": "Tab name for advanced options section"
+  },
+  "savedTitlesInfo": {
+    "message": "タイトルをクリックして編集。ゴミ箱アイコンをクリックして削除。",
+    "description": "Info text for saved titles section"
+  },
+  "defaultOptionsHeader": {
+    "message": "デフォルトタイトル設定",
+    "description": "Header for default options section"
+  },
+  "defaultOptionsInfo": {
+    "message": "ポップアップメニューのデフォルトオプションを選択してください。",
+    "description": "Info text for default options section"
+  },
+  "optionOneTimeDesc": {
+    "message": "タイトルを一時的に設定します。リロードまたはURL変更で失われます。",
+    "description": "Description for one-time option"
+  },
+  "optionTabLockDesc": {
+    "message": "URLに関係なく現在のタブに適用。タブを閉じると失われます。",
+    "description": "Description for tab lock option"
+  },
+  "optionExactUrlDesc": {
+    "message": "完全なURLに一致。セッション間で永続的。",
+    "description": "Description for exact URL option"
+  },
+  "optionDomainDesc": {
+    "message": "URLのドメイン部分に一致。セッション間で永続的。",
+    "description": "Description for domain option"
+  },
+  "buttonSave": {
+    "message": "保存",
+    "description": "Text for save button"
+  },
+  "advancedOptionsHeader": {
+    "message": "詳細設定",
+    "description": "Header for advanced options section"
+  },
+  "accordionRegex": {
+    "message": "正規表現置換",
+    "description": "Header for regex section"
+  },
+  "regexInfo": {
+    "message": "正規表現を使ってタイトルの一部を置換します。",
+    "description": "Info text for regex section"
+  },
+  "regexSyntax": {
+    "message": "構文：/パターン/置換/フラグ",
+    "description": "Syntax info for regex"
+  },
+  "regexExample": {
+    "message": "例：/(.*)/私の $1/ は「タイトル」を「私の タイトル」に変更します",
+    "description": "Example for regex"
+  },
+  "accordionUrlPattern": {
+    "message": "URLパターンマッチング",
+    "description": "Header for URL pattern section"
+  },
+  "urlPatternInfo": {
+    "message": "カスタムURLパターンマッチングを作成します。",
+    "description": "Info text for URL pattern section"
+  },
+  "labelUrlPattern": {
+    "message": "URLパターン：",
+    "description": "Label for URL pattern input"
+  },
+  "urlPatternHint": {
+    "message": "* で始まり * で終わる必要があります",
+    "description": "Hint for URL pattern input"
+  },
+  "labelPatternTitle": {
+    "message": "タイトル：",
+    "description": "Label for pattern title input"
+  },
+  "buttonAddPattern": {
+    "message": "パターンを追加",
+    "description": "Text for add pattern button"
+  },
+  "accordionKeyboardShortcut": {
+    "message": "キーボードショートカット",
+    "description": "Header for keyboard shortcut section"
+  },
+  "keyboardShortcutInfo": {
+    "message": "デフォルトショートカット：Alt+E",
+    "description": "Info text for keyboard shortcut"
+  },
+  "buttonEditShortcuts": {
+    "message": "ショートカットを編集",
+    "description": "Text for edit shortcuts button"
+  },
+  "accordionImportExport": {
+    "message": "設定のインポート/エクスポート",
+    "description": "Header for import/export section"
+  },
+  "buttonExport": {
+    "message": "設定をエクスポート",
+    "description": "Text for export button"
+  },
+  "buttonImport": {
+    "message": "設定をインポート",
+    "description": "Text for import button"
+  },
+  "labelLanguage": {
+    "message": "言語：",
+    "description": "Label for language selector"
+  },
+  "contextMenuSetTitle": {
+    "message": "一時タイトルを設定",
+    "description": "Text for context menu item"
+  },
+  "promptTempTitle": {
+    "message": "一時タイトルを入力してください：",
+    "description": "Prompt text for temporary title"
+  },
+  "errorDefaultMessage": {
+    "message": "タイトルの設定中にエラーが発生しました",
+    "description": "Default error message when title setting fails"
+  },
+  "errorUnknown": {
+    "message": "不明なエラー",
+    "description": "Unknown error fallback text"
+  },
+  "regexTemplatesHeader": {
+    "message": "テンプレート集",
+    "description": "Header for regex templates section"
+  },
+  "regexTemplatesHint": {
+    "message": "クリックしてパターンをクリップボードにコピー。",
+    "description": "Hint for regex templates"
+  },
+  "regexTemplateRemoveSuffix": {
+    "message": "ダッシュ後のサフィックスを削除",
+    "description": "Regex template: remove text after last dash"
+  },
+  "regexTemplateRemovePipe": {
+    "message": "パイプ後のサフィックスを削除",
+    "description": "Regex template: remove text after last pipe"
+  },
+  "regexTemplateRemoveBrackets": {
+    "message": "括弧と内容を削除",
+    "description": "Regex template: remove parentheses/brackets and their content"
+  },
+  "regexTemplateAddPrefix": {
+    "message": "🔖 プレフィックスを追加",
+    "description": "Regex template: add bookmark emoji prefix"
+  },
+  "regexTemplateAddSuffix": {
+    "message": "⭐ サフィックスを追加",
+    "description": "Regex template: add star emoji suffix"
+  },
+  "regexTemplateUppercase": {
+    "message": "大文字小文字を区別しない",
+    "description": "Regex template: case-insensitive replacement"
+  },
+  "regexTemplateCleanWhitespace": {
+    "message": "余分な空白を除去",
+    "description": "Regex template: collapse multiple spaces"
+  }
+}
